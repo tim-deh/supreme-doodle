@@ -20,7 +20,6 @@ public class PrintGame {
 				System.out.println("You failed to guess within a range of ten, you have " + (5-i) + " guesses left:");
 				num = reader.nextInt();
 			} else {
-				System.out.println("You win, the number is: " + n);
 				break;
 			}
 
