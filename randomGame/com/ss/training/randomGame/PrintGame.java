@@ -28,6 +28,8 @@ public class PrintGame {
 		
 		if ( num <= (n - 10) || num >= (n + 10) ) {
 			System.out.println("Sorry, you lost. The number was: " + n);
+		} else {
+			System.out.println("You win, the number is: " + n);
 		}
 		
 		reader.close();
